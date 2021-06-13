@@ -12,7 +12,7 @@ import androidx.paging.LoadState
 import androidx.recyclerview.widget.DividerItemDecoration
 import com.htetwunsan.tmdb.Constant
 import com.htetwunsan.tmdb.Injection
-import com.htetwunsan.tmdb.databinding.UpcomingListActivityBinding
+import com.htetwunsan.tmdb.databinding.ActivityUpcomingListBinding
 import com.htetwunsan.tmdb.ui.adapters.UpcomingAdapter
 import com.htetwunsan.tmdb.ui.adapters.UpcomingLoadStateAdapter
 import com.htetwunsan.tmdb.ui.viewmodels.UpcomingListViewModel
@@ -26,7 +26,7 @@ import kotlinx.coroutines.launch
 class UpcomingListActivity : AppCompatActivity() {
 
     private lateinit var viewModel: UpcomingListViewModel
-    private lateinit  var binding: UpcomingListActivityBinding
+    private lateinit  var binding: ActivityUpcomingListBinding
     private val adapter = UpcomingAdapter()
 
     private var job: Job? = null
@@ -34,7 +34,7 @@ class UpcomingListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = UpcomingListActivityBinding.inflate(layoutInflater)
+        binding = ActivityUpcomingListBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 

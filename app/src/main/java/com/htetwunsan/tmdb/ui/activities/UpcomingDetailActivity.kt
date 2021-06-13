@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import com.htetwunsan.tmdb.Constant
 import com.htetwunsan.tmdb.Injection
-import com.htetwunsan.tmdb.databinding.UpcomingDetailActivityBinding
+import com.htetwunsan.tmdb.databinding.ActivityUpcomingDetailBinding
 import com.htetwunsan.tmdb.ui.viewmodels.UpcomingDetailViewModel
 import kotlinx.coroutines.launch
 import retrofit2.HttpException
@@ -18,12 +18,12 @@ import java.io.IOException
 class UpcomingDetailActivity : AppCompatActivity() {
 
     private lateinit var viewModel: UpcomingDetailViewModel
-    private lateinit var binding : UpcomingDetailActivityBinding
+    private lateinit var binding : ActivityUpcomingDetailBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = UpcomingDetailActivityBinding.inflate(layoutInflater)
+        binding = ActivityUpcomingDetailBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 
