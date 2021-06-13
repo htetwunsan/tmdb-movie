@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/upcoming_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.UpcomingDetailActivity">
+
+    <TextView
+        android:id="@+id/movie_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="movie_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/adult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="movie_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movie_id" />
+
+    <TextView
+        android:id="@+id/backdrop_path"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="backdrop_path"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adult" />
+
+    <TextView
+        android:id="@+id/budget"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="budget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backdrop_path" />
+
+    <TextView
+        android:id="@+id/home_page"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="home_page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/budget" />
+
+    <TextView
+        android:id="@+id/imdb_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="imdb_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_page" />
+
+    <TextView
+        android:id="@+id/original_language"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="original_language"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imdb_id" />
+
+    <TextView
+        android:id="@+id/original_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="original_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/original_language" />
+
+    <TextView
+        android:id="@+id/overview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="overview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/original_title" />
+
+    <TextView
+        android:id="@+id/popularity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="popularity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/overview" />
+
+    <TextView
+        android:id="@+id/poster_path"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="poster_path"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/popularity" />
+
+    <TextView
+        android:id="@+id/release_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="release_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/poster_path" />
+
+    <TextView
+        android:id="@+id/revenue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="revenue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/release_date" />
+
+    <TextView
+        android:id="@+id/runtime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="runtime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/revenue" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/runtime" />
+
+    <TextView
+        android:id="@+id/tag_line"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="tag_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/status" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tag_line" />
+
+    <TextView
+        android:id="@+id/video"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <TextView
+        android:id="@+id/vote_average"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="vote_average"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/video" />
+
+    <TextView
+        android:id="@+id/vote_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="vote_count"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vote_average" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Favorite"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@id/favorite"
+        app:layout_constraintBottom_toBottomOf="@id/favorite"
+        app:layout_constraintTop_toTopOf="@id/favorite" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vote_count"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
